@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F8CF291B1F19C74300B9F1C0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F8CF291A1F19C74300B9F1C0 /* main.c */; };
+		F8F37F4B1F1B469500E4F24E /* calc_mean_score.c in Sources */ = {isa = PBXBuildFile; fileRef = F8F37F491F1B469500E4F24E /* calc_mean_score.c */; };
+		F8F37F4F1F1B4CD000E4F24E /* study_array.c in Sources */ = {isa = PBXBuildFile; fileRef = F8F37F4D1F1B4CD000E4F24E /* study_array.c */; };
+		F8F37F531F1B595800E4F24E /* study_pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = F8F37F511F1B595800E4F24E /* study_pointer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		F8CF29171F19C74300B9F1C0 /* hello_world_c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hello_world_c; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CF291A1F19C74300B9F1C0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F8F37F481F1B462E00E4F24E /* my_func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_func.h; sourceTree = "<group>"; };
+		F8F37F491F1B469500E4F24E /* calc_mean_score.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = calc_mean_score.c; sourceTree = "<group>"; };
+		F8F37F4A1F1B469500E4F24E /* calc_mean_score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calc_mean_score.h; sourceTree = "<group>"; };
+		F8F37F4D1F1B4CD000E4F24E /* study_array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = study_array.c; sourceTree = "<group>"; };
+		F8F37F4E1F1B4CD000E4F24E /* study_array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = study_array.h; sourceTree = "<group>"; };
+		F8F37F511F1B595800E4F24E /* study_pointer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = study_pointer.c; sourceTree = "<group>"; };
+		F8F37F521F1B595800E4F24E /* study_pointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = study_pointer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,32 @@
 		F8CF29191F19C74300B9F1C0 /* hello_world_c */ = {
 			isa = PBXGroup;
 			children = (
+				F8F37F501F1B594500E4F24E /* study_pointer */,
+				F8F37F4C1F1B4CA500E4F24E /* study_arr */,
 				F8CF291A1F19C74300B9F1C0 /* main.c */,
+				F8F37F481F1B462E00E4F24E /* my_func.h */,
+				F8F37F491F1B469500E4F24E /* calc_mean_score.c */,
+				F8F37F4A1F1B469500E4F24E /* calc_mean_score.h */,
 			);
 			path = hello_world_c;
+			sourceTree = "<group>";
+		};
+		F8F37F4C1F1B4CA500E4F24E /* study_arr */ = {
+			isa = PBXGroup;
+			children = (
+				F8F37F4D1F1B4CD000E4F24E /* study_array.c */,
+				F8F37F4E1F1B4CD000E4F24E /* study_array.h */,
+			);
+			name = study_arr;
+			sourceTree = "<group>";
+		};
+		F8F37F501F1B594500E4F24E /* study_pointer */ = {
+			isa = PBXGroup;
+			children = (
+				F8F37F511F1B595800E4F24E /* study_pointer.c */,
+				F8F37F521F1B595800E4F24E /* study_pointer.h */,
+			);
+			name = study_pointer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F37F4B1F1B469500E4F24E /* calc_mean_score.c in Sources */,
+				F8F37F531F1B595800E4F24E /* study_pointer.c in Sources */,
+				F8F37F4F1F1B4CD000E4F24E /* study_array.c in Sources */,
 				F8CF291B1F19C74300B9F1C0 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +282,7 @@
 				F8CF29201F19C74300B9F1C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
