@@ -28,4 +28,8 @@ void myLog(char * message);
 
 void lengthOfArray();
 
+void studyArrWithPointer();
+
+void studyMultiArrParam(int arr[][3]);
+
 #endif /* study_array_h */
