@@ -184,6 +184,12 @@ void studyPrintf() {
     printf("%%lf is what %lf \n", 3.14159265453);
     
     printf("%%c is a char, and use single quote %c\n", 'c');
-
+    
+    int temp_var = 123;
+    printf("%%p is a pointer %p\n", & temp_var);
+    // 内存地址比 %x 长所以不行
+//    printf("%%x is a hex %x\n", & temp_var);
+    
+    printf("%%x is a hex %x\n", 0xff1234);
 }
 
