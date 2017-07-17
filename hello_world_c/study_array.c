@@ -45,11 +45,11 @@ void studyArrWithPointer(){
     // a 实际上就是指针
     int * p = a;
 
-    printf("a[i] 与 *(p+i) 是相同的 %d", a[1] == *(p+1));
+    printf("a[i] 与 *(p+i) 是相同的 %d \n", a[1] == *(p+1));
 }
 
 void studyMultiArrParam(int arr[][3]) {
-    printf("二维数组为参数时只能这样声明参数, 不能省略最后一维的长度？");
+    printf("二维数组为参数时只能这样声明参数, 不能省略最后一维的长度？\n");
 }
 
 void studyMultiDimArr() {
@@ -75,6 +75,7 @@ void studyString() {
     char str[5] = "wang"; // 为什么是 5 呢 看下面就知道了
     // 也可以这样
     // char str[] = "wang";
+    // char * pstr = "wang";
     
     // 这是字符数组
     // \0 是必须的 用于表示字符数组结束了

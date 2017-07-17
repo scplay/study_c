@@ -53,10 +53,36 @@ void studyPointer() {
     pointerSwap(& j, l);
     
     printf("j与k交换值了吗? %d %d \n", j, k );
+    
+    
+//    int * pa = &a;
+//    int ** ppa = &pa;
+//    
+//    printf("一级指针 %p \n", pa);
+//    printf("二级指针 %p \n", ppa);
 }
 
 void pointerSwap(int * a, int * b) {
     int t = * a;
     * a = * b;
     * b = t;
+}
+
+void multiLevelPointer(){
+    int a = 10;                        //声明一个变量a
+    int *p = &a;                       //声明指针p,指向变量a
+    int **q = &p;                      //声明二级指针q,指向一级指针p
+    printf("a = %d\n",a);              //打印变量a的值
+    printf("a的地址&a=%p\n",&a);        //打印变量a的地址
+    printf("p = %p\n",p);              //打印p的值
+    printf("p的地址&p=%p\n",&p);        //打印p的地址
+    printf("p的解引用*p=%d\n",*p);      //打印p的解引用
+    printf("q = %p\n",q);              //打印q的值
+    printf("q的地址&q=%p\n",&q);        //打印q的地址
+    printf("q的解引用*q=%p\n",*q);      //打印q的解引用
+    printf("q的双重解引用**q=%d\n",**q); //打印q的双重解引用
+    
+    int ***s = &q;
+    printf("s的禁忌三重解引用***s=%d\n", ***s); //打印s
+
 }

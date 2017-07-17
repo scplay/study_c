@@ -12,5 +12,6 @@
 #include <stdio.h>
 void studyPointer();
 void pointerSwap(int * a, int * b);
+void multiLevelPointer();
 
 #endif /* study_pointer_h */
