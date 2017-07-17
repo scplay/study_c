@@ -8,8 +8,6 @@
 
 #include "study_array.h"
 
-
-
 // 保存大量同类型的数据
 // 语法 数组中的数据类型 数组名称[整数长度]
 void studyArray(){
@@ -35,8 +33,23 @@ void studyArray(){
     myLog("这样就可以打印出来一个简单的log了哈 \n");
     
     lengthOfArray();
+
+    studyArrWithPointer();
     
     free(scores);
+}
+
+void studyArrWithPointer(){
+    int a[3] = {1, 2, 3};
+
+    // a 实际上就是指针
+    int * p = a;
+
+    printf("a[i] 与 *(p+i) 是相同的 %d", a[1] == *(p+1));
+}
+
+void studyMultiArrParam(int arr[][3]) {
+    printf("二维数组为参数时只能这样声明参数, 不能省略最后一维的长度？");
 }
 
 void studyMultiDimArr() {
