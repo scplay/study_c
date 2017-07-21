@@ -12,13 +12,15 @@
 #include "calc_mean_score.h"
 #include "study_array.h"
 #include "study_pointer.h"
+#include "study_file.h"
 
 // 主函数
 // 返回值 函数名 参数个数 参数数组
 int main(int argc, const char * argv[]) {
 
+    studyFile();
 //    studyPointer();
-    multiLevelPointer();
+    // multiLevelPointer();
     
 //    studyString();
     

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "Vagrantfile": "ruby",
+        "study_pointer.h": "c"
+    }
+}
