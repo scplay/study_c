@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "Vagrantfile": "ruby",
-        "study_pointer.h": "c"
+        "study_pointer.h": "c",
+        "study_struct.h": "c",
+        "study_file.h": "c"
     }
 }

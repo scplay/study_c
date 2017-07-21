@@ -86,6 +86,16 @@ void studyString() {
     printf("这是字符 %c \n", c);
     printf("这是字符串 %s \n", str);
     printf("这是字符数组 %s \n", c_arr);
+    
+    
+    char en_n[] = "a";
+    printf("一个英文的字符的长度 %lu (1 unicode + 1 \\0) \n", sizeof(en_n));
+    
+    char * pen_n = "a";
+    printf("一个指针英文的字符的长度 %lu ? \n", sizeof(pen_n));
+    
+    char zh_n[] = "人";
+    printf("一个中文的字符的长度 %lu (3 unicode + 1 \\0)\n", sizeof(zh_n));
 }
 
 
