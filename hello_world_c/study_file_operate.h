@@ -13,5 +13,6 @@
 
 void writeFile();
 void readFile();
+void getFile();
 
 #endif /* study_file_operate_h */

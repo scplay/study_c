@@ -20,9 +20,11 @@
 // 返回值 函数名 参数个数 参数数组
 int main(int argc, const char * argv[]) {
     
-    writeFile();
+    getFile();
+    
+    // writeFile();
 
-    readFile();
+    // readFile();
 
 //    studyStruct();
     
